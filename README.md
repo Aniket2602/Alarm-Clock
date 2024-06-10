@@ -43,12 +43,15 @@ This is a simple Alarm Clock application built using vanilla JavaScript, HTML, a
 ## Demo
 
 > Checkout the Website [Web Application](https://aniket2602.github.io/Alarm-Clock/)
->
+
 > Checkout the Application Demo Video [YouTube]()
 
-## Author
+<br>
 
+## Author
 [@Aniket2602](https://github.com/Aniket2602)
+<br>
+<br>
 
 ## 🔗 Links
 
