@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Include Font Awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/01354974f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <!-- Container to display current time -->
+      <div id="current-timer">
+        <!-- Clock icon -->
+        <img src="images/clock.png" alt="Clock" />
+        <!-- Current time -->
+        <p id="current-time">00:00:00 AM</p>
+      </div>
+      <!-- Container to set alarm -->
+      <div id="set-alarm-container">
+        <!-- Dropdown for selecting hours -->
+        <div class="time-box">
+          <select class="font-size-20" id="hours-container">
+            <option value="Hours" selected hidden>Hours</option>
+          </select>
+        </div>
+        <!-- Dropdown for selecting minutes -->
+        <div class="time-box">
+          <select class="font-size-20" id="minutes-container">
+            <option value="Minutes" selected hidden>Minutes</option>
+          </select>
+        </div>
+        <!-- Dropdown for selecting seconds -->
+        <div class="time-box">
+          <select class="font-size-20" id="seconds-container">
+            <option value="Seconds" selected hidden>Seconds</option>
+          </select>
+        </div>
+        <!-- Dropdown for selecting AM/PM -->
+        <div class="time-box">
+          <select class="font-size-20" id="ampm-container">
+            <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
+        <!-- Button to set alarm -->
+        <button class="font-size-20" id="set-alarm-button">Set Alarm</button>
+      </div>
+      <!-- Container to display alarm list -->
+      <div id="alarm-list-container">
+        <!-- Header for alarm list -->
+        <p>Alarms</p>
+        <!-- Container for displaying alarm list -->
+        <div class="alarm-list" id="alarm-list"></div>
+      </div>
+    </div>
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
