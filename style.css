@@ -24,6 +24,11 @@ body {
   box-shadow: 15px 15px 40px 15px rgba(253, 161, 119, 0.75);
 }
 
+#main-container img {
+  width: 8rem;
+  height: 10rem;
+}
+
 /* Styling for clock image and current time */
 #current-timer {
   margin-top: 50px;
