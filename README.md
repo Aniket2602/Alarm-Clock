@@ -14,11 +14,12 @@ This is a simple Alarm Clock application built using vanilla JavaScript, HTML, a
   - Alerts the user with a browser alert when the alarm time is reached.
 - **Alarms List**
   - Displays a list of all the alarms set by the user.
-- **Delete Alarm** - Allows the user to delete an alarm from the list.
+- **Delete Alarm** 
+  - Allows the user to delete an alarm from the list.
   <br>
   <br>
 
-## Screenshots
+## Screenshot
 
 ![App Screenshot](https://github.com/Aniket2602/Alarm-Clock/blob/main/Screenshot/Screenshot_1.png)
 
@@ -31,7 +32,7 @@ This is a simple Alarm Clock application built using vanilla JavaScript, HTML, a
 - Programming / Scripting: JavaScript
 - Front-End: HTML, CSS
 - Integrated Development Environment: VSCode
-<p align="justify">
+<p style="text-align: justify">
 <img height="140" width="140" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
 <img height="140" width="140" src="https://logodix.com/logo/470309.png">
 <img height="140" width="140" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
@@ -44,7 +45,7 @@ This is a simple Alarm Clock application built using vanilla JavaScript, HTML, a
 
 > Checkout the Website [Web Application](https://aniket2602.github.io/Alarm-Clock/)
 
-> Checkout the Application Demo Video [YouTube]()
+> Checkout the Application Demo Video [Video Link](https://drive.google.com/file/d/1qsIVmki7lbXVgUHAZBaWP-cPXbUv94GL/view?usp=drive_link)
 
 <br>
 
